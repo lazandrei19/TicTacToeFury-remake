@@ -1,0 +1,75 @@
+@import imports/imports
+
+body, html
+	+size(100%)
+	font-size: 90px
+.display
+	position: absolute
+	background: rgba(#333, 0.75)
+	border-radius: 2em
+	+size(30em 4em)
+	+center
+	font-size: 30px
+	z-index: 10
+	display: none
+
+	h1
+		line-height: 2em
+		margin: 0
+		color: white
+
+.board
+	display: inline-block
+	+size(calc(9em + 6px))
+	+center
+	.big-cell
+		+size(3em)
+		border: 1px solid red
+		display: inline-block
+		float: left
+		position: relative
+
+		.small-cell
+			box-sizing: border-box
+			+size(1em)
+			border: 1px solid black
+			display: inline-block
+			float: left
+
+			&[data-player='1']
+				background: red
+			&[data-player='2']
+				background: blue
+		&:before, &:after
+			+pseudo
+			+position(absolute, 0 0 0 0)
+			opacity: 0.3
+			pointer-events: none
+		&:before
+			background: #333
+			display: inline-block
+		&:after
+			display: none
+		@each $color in red, blue
+			&.#{$color}:before
+				opacity: 0.5
+			&.#{$color}:after
+				background: $color
+				display: inline-block
+	@for $i from 8 through -1
+		&[data-cell='#{$i}'] 
+			@if $i == -1
+				.big-cell
+					&:before
+						display: none
+					&:after
+						opacity: 0.2
+			@else
+				.big-cell:nth-child(#{$i + 1})
+					&:before
+						display: none
+					&:after
+						opacity: 0.2
+	@each $board-color in red, blue
+		&[data-color='#{$board-color}'] .big-cell
+			border: 1px solid $board-color

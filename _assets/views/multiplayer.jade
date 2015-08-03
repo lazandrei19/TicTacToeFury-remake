@@ -1,0 +1,21 @@
+doctype html
+html(lang='en')
+	head
+		meta(charset='UTF-8')
+		meta(name='viewport', content='width=device-width')
+		title= title
+		link(rel='stylesheet', href='/css/multiplayer.css')
+		//-script(src='http://localhost:35729/livereload.js')
+		
+	body
+		.display
+			h1
+		.board(data-cell=-1, data-color='red')
+			-for(var i=0;i<9;i++)
+				.big-cell
+					-for(var j=0;j<9;j++)
+						.small-cell
+
+		script(src="/js/lib/dependencies.js")
+		script(src="/socket.io/socket.io.js")
+		script(src="/js/multiplayer.js")

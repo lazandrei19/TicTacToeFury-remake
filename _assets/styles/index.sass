@@ -1,0 +1,115 @@
+@import imports/imports-fa
+
+body, html
+	width: 100%
+	height: 100%
+	background: $background
+
+.container
+	width: 100%
+	+center
+
+	.field-wrapper
+		+center
+		text-align: left
+		opacity: 0
+		visibility: hidden
+		transition: visibility 0s $ease-out-quad 0.6s,opacity 0.2s $ease-out-quad 0.4s;
+
+		&.show
+			visibility: visible
+			opacity: 1
+
+		input
+			width: 30em
+			height: 2em
+			z-index: 1
+			display: block
+			background-color: transparent
+			border: 0
+			color: $accent
+
+			&:focus
+				outline: 0
+
+				&~.border::after
+					width: 30em
+					height: 2px
+
+				&~.placeholder
+					margin-top: -2em
+					color: $accent
+
+		.input
+			position: absolute
+			top: 50%
+			left: 50%
+			transform: translate(-50%, -50%)
+
+			.border
+				display: inline-block
+				width: 30em
+				height: 1px
+				background: $accent
+				z-index: 2
+				position: absolute
+				bottom: 0
+				left: 0
+				
+				&::after
+					content: ''
+					width: 0
+					height: 3px
+					background: darken($accent, 25)
+					z-index: 5
+					position: absolute
+					top: 0
+					left: 50%
+					transform: translateX(-50%)
+					transition: all 0.35s $ease-out-quad
+
+			.placeholder
+				margin-top: 0
+				position: absolute
+				top: 50%
+				transform: translateY(-50%)
+				width: 30em
+				height: 2em
+				line-height: 2em
+				color: darken($accent, 10)
+				pointer-events: none
+				transition: all 0.25s $ease-out-quad
+			
+			a.arrow
+				+centerV
+				right: 5px
+				color: $accent
+				font-size: 1.3em
+				text-decoration: none
+	//Buttons
+	.button
+		display: inline-block
+		font-size: 50px
+		margin: 0.5em
+		cursor: pointer
+		transition: visibility 0s $ease-out-quad 0.3s,opacity 0.3s $ease-out-quad;
+		a
+			display: inline-block
+			line-height: 2.3em
+			width: 8em
+			height: 2.3em
+			padding: 0 0.2em
+			background: $background
+			border: 0.1em solid $accent
+			border-radius: 0.3em
+			color: $accent
+			text-transform: uppercase
+			text-decoration: none
+			transition: all 0.3s $ease-out-quad
+
+			&:hover
+				color: $background
+				background: $accent
+		&.fade
+			opacity: 0
+			visibility: hidden

@@ -1,0 +1,36 @@
+{
+	"folders":
+	[
+		{
+			"path": "_assets/styles",
+			"name": "Styles"
+		},
+		{
+			"path": "_assets/scripts",
+			"folder_exclude_patterns": ["logs"],
+			"name": "Scripts"
+		},
+		{
+			"path": "_assets/routes",
+			"name": "Routes"
+		},
+		{
+			"path": "_assets/views",
+			"name": "Views"
+		},
+		{
+			"path": "_tools",
+			"name": "Tools",
+			"folder_exclude_patterns": [".sass-cache"]
+		},
+		{
+			"path": "_site",
+			"name": "Site"
+		},
+		{
+			"path": ".",
+			"folder_exclude_patterns": ["node_modules", ".sass-cache", "rethinkdb_data"],
+			"name": "TicTacToeFury"
+		}
+	]
+}

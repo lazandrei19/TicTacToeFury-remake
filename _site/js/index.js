@@ -1,0 +1,2 @@
+!function(){var n=$(".button"),a=n.last(),d=$(".field-wrapper"),i=d.find("input");a.bind("click",function(){n.addClass("fade"),d.addClass("show")}),i.bind("focusout",function(){i.val("")})}();
+//# sourceMappingURL=../_sourcemaps/index.js.map

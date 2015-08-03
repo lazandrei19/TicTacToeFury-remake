@@ -1,0 +1,123 @@
+2015-07-25T14:24:07.557335000 0.026735s notice: Recursively removing directory /Users/lazandrei19/Documents/Projects/TicTacToeFury-remake/rethinkdb_data/tmp
+2015-07-25T14:24:07.558062000 0.027465s notice: Initializing directory /Users/lazandrei19/Documents/Projects/TicTacToeFury-remake/rethinkdb_data
+2015-07-25T14:24:07.558103000 0.027503s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/lazandrei19/Documents/Projects/TicTacToeFury-remake/rethinkdb_data' did not already exist or is empty.)
+2015-07-25T14:24:07.558119000 0.027519s notice: Running rethinkdb 2.0.4 (CLANG 4.2 (clang-425.0.28))...
+2015-07-25T14:24:07.560823000 0.030223s notice: Running on Darwin 14.3.0 x86_64
+2015-07-25T14:24:07.560841000 0.030241s notice: Loading data from directory /Users/lazandrei19/Documents/Projects/TicTacToeFury-remake/rethinkdb_data
+2015-07-25T14:24:07.840340000 0.309740s info: Automatically using cache size of 3218 MB
+2015-07-25T14:24:07.841099000 0.310499s notice: Listening for intracluster connections on port 29015
+2015-07-25T14:24:07.842636000 0.312036s notice: Listening for client driver connections on port 28015
+2015-07-25T14:24:07.842690000 0.312090s notice: Listening for administrative HTTP connections on port 8080
+2015-07-25T14:24:07.842694000 0.312094s notice: Listening on addresses: 127.0.0.1, ::1
+2015-07-25T14:24:07.842696000 0.312095s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-07-25T14:24:07.842698000 0.312097s notice: Server ready, "Andreis_Mac_Pro_gyg" 213ce4b4-1ad5-40d1-84b7-3e7ec26039a6
+2015-07-25T14:27:16.359211000 188.825583s notice: Removing file /Users/lazandrei19/Documents/Projects/TicTacToeFury-remake/rethinkdb_data/f0a0e9a1-d2b2-4155-8685-098252933c4a
+2015-07-25T14:51:46.101385000 1658.544406s notice: Server got SIGINT from pid 2566, uid 501; shutting down...
+2015-07-25T14:51:46.101495000 1658.544515s notice: Shutting down client connections...
+2015-07-25T14:51:46.101557000 1658.544576s notice: All client connections closed.
+2015-07-25T14:51:46.101560000 1658.544579s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-07-25T14:51:46.103539000 1658.546559s notice: Storage engine shut down.
+2015-07-28T09:29:48.901024000 0.030680s notice: Running rethinkdb 2.0.4 (CLANG 4.2 (clang-425.0.28))...
+2015-07-28T09:29:48.903728000 0.033382s notice: Running on Darwin 14.3.0 x86_64
+2015-07-28T09:29:48.903745000 0.033399s notice: Loading data from directory /Users/lazandrei19/Documents/Projects/TicTacToeFury-remake/rethinkdb_data
+2015-07-28T09:29:48.967046000 0.096700s info: Automatically using cache size of 3316 MB
+2015-07-28T09:29:48.967612000 0.097266s notice: Listening for intracluster connections on port 29015
+2015-07-28T09:29:48.968988000 0.098641s notice: Listening for client driver connections on port 28015
+2015-07-28T09:29:48.969037000 0.098690s notice: Listening for administrative HTTP connections on port 8080
+2015-07-28T09:29:48.969038000 0.098691s notice: Listening on addresses: 127.0.0.1, ::1
+2015-07-28T09:29:48.969040000 0.098693s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-07-28T09:29:48.969042000 0.098695s notice: Server ready, "Andreis_Mac_Pro_gyg" 213ce4b4-1ad5-40d1-84b7-3e7ec26039a6
+2015-07-28T12:04:18.614421000 9269.593453s notice: Server got SIGINT from pid 1243, uid 501; shutting down...
+2015-07-28T12:04:18.614615000 9269.593647s notice: Shutting down client connections...
+2015-07-28T12:04:18.614761000 9269.593792s notice: All client connections closed.
+2015-07-28T12:04:18.614765000 9269.593797s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-07-28T12:04:18.619413000 9269.598445s notice: Storage engine shut down.
+2015-07-28T12:08:43.249297000 0.022959s notice: Running rethinkdb 2.0.4 (CLANG 4.2 (clang-425.0.28))...
+2015-07-28T12:08:43.251829000 0.025489s notice: Running on Darwin 14.3.0 x86_64
+2015-07-28T12:08:43.251846000 0.025505s notice: Loading data from directory /Users/lazandrei19/Documents/Projects/TicTacToeFury-remake/rethinkdb_data
+2015-07-28T12:08:43.319052000 0.092712s info: Automatically using cache size of 5416 MB
+2015-07-28T12:08:43.319647000 0.093307s notice: Listening for intracluster connections on port 29015
+2015-07-28T12:08:43.321080000 0.094739s notice: Listening for client driver connections on port 28015
+2015-07-28T12:08:43.321124000 0.094784s notice: Listening for administrative HTTP connections on port 8080
+2015-07-28T12:08:43.321128000 0.094787s notice: Listening on addresses: 127.0.0.1, ::1
+2015-07-28T12:08:43.321128001 0.094788s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-07-28T12:08:43.321130000 0.094790s notice: Server ready, "Andreis_Mac_Pro_gyg" 213ce4b4-1ad5-40d1-84b7-3e7ec26039a6
+2015-07-28T18:40:50.702050000 23527.162028s notice: Server got SIGINT from pid 1290, uid 501; shutting down...
+2015-07-28T18:40:50.702173000 23527.162152s notice: Shutting down client connections...
+2015-07-28T18:40:50.702277000 23527.162255s notice: All client connections closed.
+2015-07-28T18:40:50.702282000 23527.162260s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-07-28T18:40:50.707156000 23527.167135s notice: Storage engine shut down.
+2015-07-28T20:38:14.214445000 0.004133s notice: Running rethinkdb 2.0.4 (CLANG 4.2 (clang-425.0.28))...
+2015-07-28T20:38:14.216814000 0.006499s notice: Running on Darwin 14.3.0 x86_64
+2015-07-28T20:38:14.216830000 0.006515s notice: Loading data from directory /Users/lazandrei19/Documents/Projects/TicTacToeFury-remake/rethinkdb_data
+2015-07-28T20:38:14.276618000 0.066303s info: Automatically using cache size of 4680 MB
+2015-07-28T20:38:14.277005000 0.066690s notice: Listening for intracluster connections on port 29015
+2015-07-28T20:38:14.277969000 0.067655s notice: Listening for client driver connections on port 28015
+2015-07-28T20:38:14.278039000 0.067724s notice: Listening for administrative HTTP connections on port 8080
+2015-07-28T20:38:14.278041000 0.067726s notice: Listening on addresses: 127.0.0.1, ::1
+2015-07-28T20:38:14.278044000 0.067729s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-07-28T20:38:14.278047000 0.067733s notice: Server ready, "Andreis_Mac_Pro_gyg" 213ce4b4-1ad5-40d1-84b7-3e7ec26039a6
+2015-07-28T21:12:21.955820000 2047.720708s notice: Server got SIGINT from pid 31913, uid 501; shutting down...
+2015-07-28T21:12:21.955927000 2047.720814s notice: Shutting down client connections...
+2015-07-28T21:12:21.956021000 2047.720909s notice: All client connections closed.
+2015-07-28T21:12:21.956026000 2047.720913s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-07-28T21:12:21.957792000 2047.722679s notice: Storage engine shut down.
+2015-07-31T12:55:29.161583000 0.023604s notice: Running rethinkdb 2.0.4 (CLANG 4.2 (clang-425.0.28))...
+2015-07-31T12:55:29.164136000 0.026155s notice: Running on Darwin 14.3.0 x86_64
+2015-07-31T12:55:29.164156000 0.026174s notice: Loading data from directory /Users/lazandrei19/Documents/Projects/TicTacToeFury-remake/rethinkdb_data
+2015-07-31T12:55:29.223852000 0.085864s info: Automatically using cache size of 4221 MB
+2015-07-31T12:55:29.224470000 0.086482s notice: Listening for intracluster connections on port 29015
+2015-07-31T12:55:29.225864000 0.087877s notice: Listening for client driver connections on port 28015
+2015-07-31T12:55:29.225910000 0.087922s notice: Listening for administrative HTTP connections on port 8080
+2015-07-31T12:55:29.225914000 0.087926s notice: Listening on addresses: 127.0.0.1, ::1
+2015-07-31T12:55:29.225914001 0.087926s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-07-31T12:55:29.225916000 0.087928s notice: Server ready, "Andreis_Mac_Pro_gyg" 213ce4b4-1ad5-40d1-84b7-3e7ec26039a6
+2015-07-31T18:10:54.412369000 0.022387s notice: Running rethinkdb 2.0.4 (CLANG 4.2 (clang-425.0.28))...
+2015-07-31T18:10:54.414839000 0.024855s notice: Running on Darwin 14.3.0 x86_64
+2015-07-31T18:10:54.414862000 0.024877s notice: Loading data from directory /Users/lazandrei19/Documents/Projects/TicTacToeFury-remake/rethinkdb_data
+2015-07-31T18:10:54.479645000 0.089661s info: Automatically using cache size of 5335 MB
+2015-07-31T18:10:54.480237000 0.090252s notice: Listening for intracluster connections on port 29015
+2015-07-31T18:10:54.481617000 0.091632s notice: Listening for client driver connections on port 28015
+2015-07-31T18:10:54.481658000 0.091673s notice: Listening for administrative HTTP connections on port 8080
+2015-07-31T18:10:54.481662000 0.091677s notice: Listening on addresses: 127.0.0.1, ::1
+2015-07-31T18:10:54.481663000 0.091678s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-07-31T18:10:54.481664000 0.091679s notice: Server ready, "Andreis_Mac_Pro_gyg" 213ce4b4-1ad5-40d1-84b7-3e7ec26039a6
+2015-07-31T18:20:36.809520000 582.413569s notice: Server got SIGINT from pid 1288, uid 501; shutting down...
+2015-07-31T18:20:36.809637000 582.413685s notice: Shutting down client connections...
+2015-07-31T18:20:36.809811000 582.413859s notice: All client connections closed.
+2015-07-31T18:20:36.809816000 582.413864s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-07-31T18:20:36.814737000 582.418785s notice: Storage engine shut down.
+2015-07-31T18:21:08.275940000 0.008162s notice: Running rethinkdb 2.0.4 (CLANG 4.2 (clang-425.0.28))...
+2015-07-31T18:21:08.278303000 0.010522s notice: Running on Darwin 14.3.0 x86_64
+2015-07-31T18:21:08.278319000 0.010538s notice: Loading data from directory /Users/lazandrei19/Documents/Projects/TicTacToeFury-remake/rethinkdb_data
+2015-07-31T18:21:08.329387000 0.061606s info: Automatically using cache size of 4984 MB
+2015-07-31T18:21:08.329798000 0.062017s notice: Listening for intracluster connections on port 29015
+2015-07-31T18:21:08.330764000 0.062983s notice: Listening for client driver connections on port 28015
+2015-07-31T18:21:08.330807000 0.063026s notice: Listening for administrative HTTP connections on port 8080
+2015-07-31T18:21:08.330808000 0.063027s notice: Listening on addresses: 127.0.0.1, ::1
+2015-07-31T18:21:08.330810000 0.063029s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-07-31T18:21:08.330811000 0.063030s notice: Server ready, "Andreis_Mac_Pro_gyg" 213ce4b4-1ad5-40d1-84b7-3e7ec26039a6
+2015-07-31T18:24:51.865659000 223.595577s notice: Someone asked for the nonwhitelisted file "/socket.io/socket.io.js".  If this should be accessible, add it to the static web assets.
+2015-07-31T18:25:14.224861000 245.954551s notice: Someone asked for the nonwhitelisted file "/socket.io/socket.io.js".  If this should be accessible, add it to the static web assets.
+2015-07-31T18:25:24.782701000 256.512282s notice: Someone asked for the nonwhitelisted file "/socket.io/socket.io.js".  If this should be accessible, add it to the static web assets.
+2015-07-31T18:25:30.143930000 261.873457s notice: Someone asked for the nonwhitelisted file "/socket.io/socket.io.js".  If this should be accessible, add it to the static web assets.
+2015-07-31T18:53:54.300534000 1966.012755s notice: Server got SIGINT from pid 1288, uid 501; shutting down...
+2015-07-31T18:53:54.300640000 1966.012861s notice: Shutting down client connections...
+2015-07-31T18:53:54.300725000 1966.012946s notice: All client connections closed.
+2015-07-31T18:53:54.300728000 1966.012949s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-07-31T18:53:54.302606000 1966.014828s notice: Storage engine shut down.
+2015-08-01T10:34:42.677818000 0.032797s notice: Running rethinkdb 2.0.4 (CLANG 4.2 (clang-425.0.28))...
+2015-08-01T10:34:42.680363000 0.035340s notice: Running on Darwin 14.3.0 x86_64
+2015-08-01T10:34:42.680385000 0.035362s notice: Loading data from directory /Users/lazandrei19/Documents/Projects/TicTacToeFury-remake/rethinkdb_data
+2015-08-01T10:34:42.740659000 0.095636s info: Automatically using cache size of 4719 MB
+2015-08-01T10:34:42.741250000 0.096227s notice: Listening for intracluster connections on port 29015
+2015-08-01T10:34:42.742674000 0.097650s notice: Listening for client driver connections on port 28015
+2015-08-01T10:34:42.742716000 0.097692s notice: Listening for administrative HTTP connections on port 8080
+2015-08-01T10:34:42.742719000 0.097696s notice: Listening on addresses: 127.0.0.1, ::1
+2015-08-01T10:34:42.742720000 0.097696s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-08-01T10:34:42.742721000 0.097698s notice: Server ready, "Andreis_Mac_Pro_gyg" 213ce4b4-1ad5-40d1-84b7-3e7ec26039a6
+2015-08-02T10:42:31.614770000 86868.508892s notice: Server got SIGINT from pid 9146, uid 501; shutting down...
+2015-08-02T10:42:31.614869000 86868.508991s notice: Shutting down client connections...
+2015-08-02T10:42:31.614994000 86868.509116s notice: All client connections closed.
+2015-08-02T10:42:31.614999000 86868.509120s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-08-02T10:42:31.621762000 86868.515884s notice: Storage engine shut down.
