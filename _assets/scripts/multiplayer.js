@@ -11,7 +11,7 @@
 	var $window = $(window);
 	var boards = [[[0, 0, 0],[0, 0, 0],[0, 0],0], [[0, 0, 0],[0, 0, 0],[0, 0],0], [[0, 0, 0],[0, 0, 0],[0, 0],0], [[0, 0, 0],[0, 0, 0],[0, 0],0], [[0, 0, 0],[0, 0, 0],[0, 0],0], [[0, 0, 0],[0, 0, 0],[0, 0],0], [[0, 0, 0],[0, 0, 0],[0, 0],0], [[0, 0, 0],[0, 0, 0],[0, 0],0], [[0, 0, 0],[0, 0, 0],[0, 0],0], [[0, 0, 0],[0, 0, 0],[0, 0],0]];
 	var activeCell = -1;
-	var socket = io.connect('http://localhost:3000');
+	var socket = io();
 	var username = location.pathname.split('/')[2];
 	var $display = $('.display');
 	var $displayText = $display.find('h1');
