@@ -89,6 +89,7 @@ client.on('connection', function(socket) {
 		if (waitingUsers.length > 0) {
 			var index = Math.floor(Math.random() * waitingUsers.length);
 			var user = waitingUsers[index];
+			waitingUsers.pop(index);
 			socket.lastPlay = user;
 			socket.playingAgainst = user;
 			var opponent = users[user];
